@@ -49,20 +49,20 @@ ul{
 ul#lila{
     list-style-image: url(./sqpurple.gif);
 }
-ul#lila a:link{
+ul#lila li a:link{
     text-decoration: none;
     color: blue;
 }
-ul#lila a:visited{
+ul#lila li a:visited{
     text-decoration:line-through ;
     color: red;
 
 }
-ul#lila a:hover{
+ul#lila li a:hover{
     text-decoration: none;
     color: aliceblue;
 }
-ul#lila a:active{
+ul#lila li a:active{
     text-decoration: none;
     color: burlywood;
 }
