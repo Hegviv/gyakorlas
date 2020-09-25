@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gyakorlas</title>
+    <link rel="stylesheet" href="./slilus.css"> 
+    <link rel='icon' href="./favicon.ico" 
+</head>
+<body>
+    <!--kép elem és atribútuami -->
+    <!--src kép forrásának megadása-->
+    <!-- alt:alternatív szöveg ha nincs kép-->
+    <!--title: tool tip, kis szöveg, ha az egeret ráhuzzuk a képre-->
+    <!--width, hight: fizikai mértékek megadása-->
+    <!--width='200', jelenti hogy a kép 200px széles-->
+    <img src="./cica.jpg" alt="repülő cica" title="repülő cica" width="200" />
+    <!--link elem és atribútuami-->
+    <!-- href="#" saját oldalra hivatkozik -->
+    <!-- target hol jelenjen meg a hivatkozás -->
+    <!-- target="blank" új lapon fülön -->
+    <!-- target= "top" beágyazott oldalról a tartalmazó oldalra -->
+    <!-- target="self" saját oldalon, ez az alap értelmezett -->
+    <a href="https://www.123rf.com/photo_16406654_funny-flying-cat-on-white-background.html" target="_blank">ez itt egy hivatkozás, link</a>
+    <!-- két fajta vers -->
+    <p>
+        Edvárd király angol király
+
+        léptet fakó lován
+    </p>
+    <!-- pre: előformált megörzi a szóközöket és sortöréseket -->
+    <pre>
+        Edvárd király angol király
+
+        léptet fakó lován
+    </pre>
+    <a href="http://www.nemzetisport.hu" target="_blank">nemzetisport</a>
+    <!-- táblázatok: table, tr-sor, th-fejlécelem, td-cellaelme -->
+    <table>
+        <caption>világirodalom remekművei</caption>
+        <tr>
+            <th>szerző</th>
+            <th colspan="2">cím</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Jules Verne</td>
+            <td>némó kapitány</td>
+            <td>némó kapitány</td>
+        </tr>
+        <tr>
+            <td>Hatteras kapitány</td> 
+            <td></td>
+            
+        </tr>
+        <tr>
+        <td>Mikszáth Kálmán</td>
+        <td>beszélő köntös</td>
+        <td>beszélő köntös</td>
+        </tr>
+        <tr>
+            <td>William Shakespiere</td>
+            <td>Rómeó és Júlia</td>
+            <td>Rómeó és Júlia</td>
+        </tr>
+        
+    </table>
+      <!--rendezetlen (pontozott) lista-->
+    <!-- ul unorder list -->
+    <!-- li list item, lista elem -->
+    <ul>
+        <li>első</li>
+        <li>második</li>
+        <li>harmadik</li>
+        <li>negyedik</li>
+    </ul>
+    <!--rendezett (számozott) lista-->
+    <!-- type - sorszámozás tipusa:szám, betű, római szám -->
+    <!-- start - csak szám esetén, honnan kezdődik -->
+    <ol type="1" start="10"> 
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ol>
+    <ul id=lila>
+        <li><a href="https://www.w3schools.com/html/default.asp">html</a></li>
+        <li><a href="https://www.w3schools.com/css/default.asp">css</a></li>
+        <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
+        <li><a href="https://www.w3schools.com/php/default.asp">PHP</a></li>
+    </ul>
+</body>
+</html>
